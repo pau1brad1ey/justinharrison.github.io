@@ -1,1 +1,338 @@
-HELLO
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Justin Harrison - Artisan, Heating and Plumbing Engineer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Justin Harrison - Artisan, Heating and Plumbing Engineer">
+<meta name="author" content="Paul Bradley">
+<meta name="Keywords" content="Justin Harrison,Artisan,Heating,Plumbing,Engineer">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/standard.css" type="text/css">
+<link rel="stylesheet" href="css/page.css" type="text/css">
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" media="all" href="ie.css" />
+<![endif]-->
+<script language="JavaScript" src="js/standard.js"></script>
+<script type="text/javascript" src="js/mootools-1.2.1-core.js"></script>
+<script type="text/javascript" src="js/mootools-1.2-more.js"></script>
+<script type="text/javascript">
+
+
+
+
+window.addEvent('domready', function(){
+
+var sliders = $$("#main .slider");
+var sliderFx = new Fx.Elements(sliders, {wait: false, duration: 500});
+
+var moveAmount = 460, interval = 40;
+sliders.each(function(slider, i) {
+  slider.addEvent("mousedown", function(event) {
+    var o = {};
+    var l = slider.getStyle("left").toInt();
+    o[i] = {left: [l, i * interval]}
+    sliders.each(function(other, j) {
+      var l2 = other.getStyle("left").toInt();
+      if(i > j) {
+        o[j] = {left: [l2, j * interval]};
+      }
+      if(i < j) {
+        o[j] = {left: [l2, (j * interval) + moveAmount]};
+      }
+    });
+    sliderFx.start(o);
+
+  });
+});
+});
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<div id="page" class="page">
+
+<table width="100%" border="0">
+  <tr><td>
+    <img src="images/logo1.gif" border="0">
+  </td><td align="right" class="date" valign="top">
+    <!-- <script language="JavaScript">writeDate()</script> -->
+    <img src="images/en_flag.gif" border="0">
+
+    <a href="javascript: loadFR()">
+      <img src="images/fr_flag.gif" border="0">
+    </a>
+  </td></tr>
+</table>
+
+<div id="main" class="contentblock">
+
+  <div id="default" style="top: 0px; left: 0px;  width:500px;" class="slider">
+
+    <span class="tab" style="background-color: #abcbcd;">
+    <!--background-image: url(images/barsliver.jpg); background-repeat: repeat-y;" -->
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow0" class="arrow"><br> -->
+      <img src="images/tab-introduction.gif" border="0" width="15" height="100">
+    </span>
+
+    <div class="content" style="background-image: url(images/carcassonne_bg3.jpg); background-position: bottom left; background-repeat: no-repeat;">
+      <div class="introhd">
+        WELCOME TO OUR WEBSITE
+      </div>
+      <div class="introbd">
+
+      Based in Carcassonne in the South of France, Justin Harrison is an experienced engineer who can help you with your plumbing, heating and property maintenance needs, from full heating installations to a dripping tap.
+      <br /><br />
+      Fully qualified and certified to work in both France and the U.K,
+be assured of a professional and friendly service from Justin and Nathalie (his French speaking partner).
+      <br /><br />
+      Registered in France, siret number 480 307 396 00030
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="plumbing" style="top: 0px; left:500px;" class="slider">
+
+
+    <span class="tab" style="background-color: #99B2C2;">
+    <!--background-image: url(images/barsliver.jpg); background-repeat: repeat-y;" -->
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow0" class="arrow"><br> -->
+      <img src="images/tab-plumbing.gif" border="0" width="15" height="140">
+    </span>
+
+    <div class="content">
+      <div class="title">
+        Plumbing & Heating
+      </div>
+
+      <div class="normal">
+        <span class="floatimgr">
+          <img src="images/sink.jpg">
+        </span>
+        A full range of general plumbing and installation services are available, from installing a bathroom, installing plumbing facilities in your kitchen and general repairs.
+        <br /><br />
+        From the installation of a radiator to a full heating and hot water system, a professional and friendly service will be delivered to you.
+        <br /><br />
+        Regular inspection and servicing of your heating and hot water systems will help to prolong life of the appliance which will in turn help its efficiency, saving money on fuel and parts. All work is carried out to the required regulations and standards.
+        <br /><br />
+        Call today to discuss your requirements or to organise a visit with a no obligation estimate
+        <br /><br />
+      </div>
+    </div>
+  </div>
+
+
+  <div id="service" style="top: 0px; left:540px;" class="slider">
+    <span class="tab" style="background-color: #80A0B6;">
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow1" class="arrow"><br> -->
+      <img src="images/tab-service.gif" border="0" width="15" height="140">
+    </span>
+
+    <div class="content">
+      <div class="title">
+        Service, Repairs and Security
+      </div>
+      <div class="normal">
+        <span class="floatimgr">
+          <img src="images/toolbag.jpg">
+        </span>
+        Having a qualified engineer check and look after your property while it is empty, will give you peace of mind.
+        <br /><br />
+        We can supply and oversee the work of trades people should a job, big or small need to be carried out at your property.
+        <br /><br />
+        As Nathalie is bilingual, all kinds of problems and situations can be dealt with quickly and efficiently.
+        <br /><br />
+        Security is a big issue when your property is empty.
+        <br /><br />
+        The following services  can be provided:
+        <br /><br />
+
+        <span class="floatimgr">
+          <img src="images/keys.jpg">
+        </span>
+
+        <ul class="bullet">
+          <li>Fortnightly/weekly checks with optional photo/email report</li>
+          <li>Turn on/off of services when required</li>
+          <li>Key holding</li>
+          <li>Emergency contact</li>
+        </ul>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="property" style="top: 0px; left:580px;" class="slider">
+
+
+    <span class="tab" style="background-color: #6390A7;">
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow2" class="arrow"><br> -->
+    <img src="images/tab-other.gif" border="0" width="15" height="140">
+    </span>
+
+    <div class="content">
+      <div class="title">Services</div>
+      <div class="normal">
+        Nathalie can offer the following services:
+        <ul class="bullet">
+          <li>Translations  document, transcription, website etc</li>
+          <li>Interpretation, over the phone and face to face</li>
+          <li>Notaire assistance</li>
+          <li>Help with EDF/GDF connections</li>
+          <li>Coordinating the ordering/delivery of any goods</li>
+          <li>Assistance in all aspects of settling in France</li>
+        </ul>
+        <br />Please call to discuss your requirements
+        <br />00 446 06 42 47 53
+        <br /><br />Siret;  518 757 133 00013
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="general" style="top: 0px; left:620px;" class="slider">
+    <span class="tab" style="background-color: #3D7FA0;">
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow3" class="arrow"><br> -->
+      <img src="images/tab-general.gif" border="0" width="15" height="140">
+    </span>
+
+    <div class="content">
+      <div class="title">
+        General Information
+      </div>
+
+      <div class="normal">
+        Nathalie and I moved to France in 2004. We live here with our two young children.
+        <br /><br />
+        I am a qualified service and heating engineer, trained by British Gas.
+        After several years working in West London with British Gas, I left and became a self-employed CORGI registered engineer doing both gas and plumbing work. I had a number of regular clients including several well known estate agents. After 6 years we decided to leave the rat race and move to France.
+        <br /><br />
+        We attended the required Artisan courses and became registered in France in February 2005.
+        My siret number is 480 307 396 00030
+        <br /><br />
+        <b>
+          I can provide a reliable, competitive and friendly service.
+          Call today to discuss your requirements.
+        </b>
+        <br /><br /><br />
+      </div>
+
+      <div class="title">References</div>
+      <div class="normal">
+
+        <strong>Below is a selection or references from our clients in France:</strong>
+        <hr />
+        We bought a house while we were living in Australia and realised we wanted to change the heating in the house from electricity to mains gas. We had seen Justin's advertisement and decided to contact him.
+        <br />To entrust such a large job to a stranger in another country appeared risky, however, we need nothave worried. After establishing telephone contact we felt very comfortable and gave the go ahead.
+        <br />The project entailed the design and installation of the gas fuelled central heating/hot water system and included arranging and liasing with GDF.
+        <br />The work was carried out in a most satisfactory manner with minimal disturbance to the decorative condition and with the pipework hidden where practical. We would have no hesitation in recommending Justin Harrison for any similar activity.
+        <br /><br />Wendy & Clive from Trebes (wendyclive@gmail.com)
+        <hr />
+        I have no hesitation in recommending Justin Harrison. I found him both reliable and trustworthy. Being a woman on my own + not living full time at my property in France I consider myself fortunate to have found Justin and his team. They completed what was a complicated renovation, within the time limit we agreed and on budget, always keeping in regular contact with me to discuss issues as they arose. Being local to the Carcassonne area, Justin is a mine of information and was always happy to help with any other requirements.
+        <br /><br />Maria from Minervois  (caromar@hotmail.co.uk)
+        <hr />
+        <br /><strong>Please click on the links below to view references from our clients in London.</strong>
+        <br /><br />
+        <a href="javascript:loadPopup('ref/haart.pdf');">Reference from Haart</a>
+        <br /><br />
+        <a href="javascript:loadPopup('ref/bushalls.pdf');">Reference from Bushalls</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" style="top: 0px; left: 660px;" class="slider">
+    <span class="tab" style="background-color: #06608D;">
+    <!--<img src="images/leftarrow.gif" border="0" id="tabarrow4" class="arrow"><br> -->
+      <img src="images/tab-contact.gif" border="0" width="15" height="140">
+    </span>
+
+    <div class="content">
+
+      <div class="title">Contact Details</div>
+
+      <div class="normal">
+        <span class="floatimgr">
+          <img src="images/contact.jpg">
+        </span>
+        Small jobs can be arranged over the phone whilst larger projects can be discussed in person. Call now to make an appointment for a free no obligations estimate.
+        <br /><br />
+        <b>
+          Justin Harrison Artisan
+          <br />
+          Plumbing, Heating and Property Maintenance
+        </b>
+      </div>
+      <br /><br />
+      <br />
+      <table border="0" cellspacing="10">
+        <tr><td class="label" valign="top">
+          Address :
+        </td><td valign="top" class="normal">
+          9 rue des Troenes, 11000 Carcassonne
+        </td></tr>
+        <tr><td class="label" valign="top">
+          Telephone :
+        </td><td valign="top" class="normal">
+          06 65 06 05 74 <br />
+          00336 65 06 05 74 (from England)
+        </td></tr>
+        <tr><td class="label" valign="top">
+          Email :
+        </td><td valign="top" class="normal">
+          contact@justinharrison.net
+        </td></tr>
+        <tr><td class="label" valign="top">
+          Siret
+        </td><td valign="top" class="normal">
+          480 307 396 00030
+        </td></tr>
+        <tr><td class="label" valign="top">
+          Website
+        </td><td valign="top" class="normal">
+          www.justinharrison.net
+        </td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+  <div id="footer"  class="footer">
+
+&nbsp;&nbsp;<strong>t:&nbsp; </strong> +33 (0)6 65060574 &nbsp;&nbsp;<strong>e:&nbsp;</strong><a class="footer" href="m&#97;&#105;&#108;&#116;o:contact@justinharrison.net?subject=Enquiry from website :" title="Email Justin Harrison">contact@justinharrison.net</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Copyright <a class="footer" href="http://www.greysphere.co.uk" target="_blank">Greysphere Ltd</a> &copy; 2007 - 2018.
+
+
+  </div>
+
+</div>
+
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-9907395-7']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+</body>
+<!-- 2018 -->
+</html>
