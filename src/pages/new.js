@@ -22,8 +22,7 @@ const NewPage = () => (
           <span className='fa fa-eye' />
           <h2>Friendly reliable service</h2>
           <p>
-            We pride ourselves on our honest and reliable service and always deliver with a smile.
-            We have many trusted clients and they would be more than happy to speak to you about our service if you need any kind of reassurance.
+          We pride ourselves on our honest and reliable service. References from our previous clients are available.
           </p>
         </div>
 
@@ -31,8 +30,7 @@ const NewPage = () => (
           <span className='fa fa-heart' />
           <h2>Quality Assurance</h2>
           <p>
-            Quality is at the core of everything we do. We are experts in our field and have partnered with the best Artisan trades in the area.
-            No matter what the job, we assure our clients the highest levels of service and attention to detail. All of our work is guaranteed.
+            We can assure our clients the highest level of service. All our work is guaranteed.
           </p>
         </div>
       </div>
@@ -42,7 +40,7 @@ const NewPage = () => (
       <div className='container'>
         <h1>Artisan Services</h1>
         <hr />
-        <p>We provide high quality Artisan services in Carcassonne and surrounding areas</p>
+        <p>We work in Carcassonne and its surrounding areas</p>
       </div>
     </section>
 
@@ -118,7 +116,7 @@ const NewPage = () => (
         <h1>Quality at the heart of all we do</h1>
         <hr />
         <p>
-          Our aim is always to deliver the highest possible quality in everything we do.
+        Our aim is to provide a high standard of workmanship in every job we do big or small
         </p>
       </div>
     </section>
@@ -159,9 +157,7 @@ const NewPage = () => (
       <div className='container'>
         <h1>OUR WORK</h1>
         <hr />
-        <p>Our reputation speaks for itself and we feel we are only as good as our work can demonstrate.
-        <br />
-        Every job, no matter how big or small, is important to us and we strive for quality and customer satisfaction in everything we do.</p>
+        <p>Every job we undertake is important to us. Customer satisfaction is our top priority</p>
       </div>
     </section>
 
@@ -248,8 +244,8 @@ const NewPage = () => (
           <div className='col-lg-4 centered'>
             <br />
             <p><img className='img img-circle' src={nathalieImg} width='60px' height='60px' /></p>
-            <h4>Nathalie Rousetty</h4>
-            <h5>Published June 30.</h5>
+            <h4>Nathalie Roussety</h4>
+            <h5>Published Sep 30.</h5>
           </div>
           <div className='col-lg-8 blog-content'>
             <h2>The move to France</h2>
@@ -264,18 +260,19 @@ const NewPage = () => (
           <div className='col-lg-4 centered'>
             <br />
             <p><img className='img img-circle' src={nathalieImg} width='60px' height='60px' /></p>
-            <h4>Nathalie Rousetty</h4>
-            <h5>Published Aug 28.</h5>
+            <h4>Nathalie Roussety</h4>
+            <h5>Published Nov 28.</h5>
           </div>
           <div className='col-lg-8 blog-content'>
             <h2>Holiday apartment</h2>
             <p>
-              We have recently renovated part of our home as a self contained holiday apartment.
-              We are really proud of what we have acheived and the feedback we get from our guests.
-              Being so close to the center of Carcassonne and right on the Canal du Midi gives our guests the perfect base for their stay in the area.
+            We recently renovated our home including a one bedroom apartment just next door. Should you be visiting the region and are looking for somewhere to stay, please don’t hesitate to get in touch.
             </p>
             <p>
-              If you are thinking of staying in the area you can book and find out more about 'The Address' <a href='https://www.tripadvisor.co.uk/VacationRentalReview-g187151-d6465798-Apartment_The_Address-Carcassonne_Center_Carcassonne_Aude_Occitanie.html'>here</a>
+              For further information about the apartment please contact Nathalie directly. If you wish, you can follow the link below <br />
+              <a href='https://www.tripadvisor.co.uk/VacationRentalReview-g187151-d6465798-Apartment_The_Address-Carcassonne_Center_Carcassonne_Aude_Occitanie.html'>
+                https://www.tripadvisor.co.uk/VacationRentalReview-g187151-d6465798-Apartment_The_Address-Carcassonne_Center_Carcassonne_Aude_Occitanie.html
+              </a>
             </p>
             <br />
           </div>
