@@ -53,7 +53,7 @@ const NewPage = () => (
         <br />
         <div className='col-lg-offset-2 col-lg-8'>
           <p>
-            If youre thinking of installing a new bathroom we can help you from the design to installation. Good tiling could be the difference between an average bathroom to an aoutstanding one, so being skilled in the area we can help you relaise your dream.
+            If you&apos;re thinking of installing a new bathroom we can help you from the design to installation. Good tiling could be the difference between an average bathroom to an aoutstanding one, so being skilled in the area we can help you relaise your dream.
           </p>
         </div>
       </div>
