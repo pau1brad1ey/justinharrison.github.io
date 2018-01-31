@@ -10,15 +10,24 @@ import './index.css'
 import './theme.css'
 
 const Header = () => (
-  <Navbar inverse fixedTop color='faded' light expand='md' id='navbar-main'>
-    <Scrollspy className='nav navbar-nav' items={['home', 'services', 'team', 'portfolio', 'blog', 'contact']} currentClassName={'active'} offset={-2}>
-      <NavItem href='/#home'>Home</NavItem>
-      <NavItem href='/#services'> Services</NavItem>
-      <NavItem href='/#team'> Team</NavItem>
-      <NavItem href='/#portfolio'> Portfolio</NavItem>
-      <NavItem href='/#blog'> Our Story</NavItem>
-      <NavItem href='/#contact'> Contact</NavItem>
-    </Scrollspy>
+  <Navbar inverse collapseOnSelect fixedTop color='faded' light id='navbar-main'>
+    <Navbar.Header>
+      {/* <Navbar.Brand>
+         Justin Harrison - Artisan
+       </Navbar.Brand>
+      */}
+      <Navbar.Toggle />
+    </Navbar.Header>
+    <Navbar.Collapse>
+      <Scrollspy className='nav navbar-nav' items={['home', 'services', 'team', 'portfolio', 'blog', 'contact']} currentClassName={'active'} offset={-2}>
+        <NavItem href='/#home'>Home</NavItem>
+        <NavItem href='/#services'> Services</NavItem>
+        <NavItem href='/#team'> Team</NavItem>
+        <NavItem href='/#portfolio'> Portfolio</NavItem>
+        <NavItem href='/#blog'> Our Story</NavItem>
+        <NavItem href='/#contact'> Contact</NavItem>
+      </Scrollspy>
+    </Navbar.Collapse>
   </Navbar>
 )
 
