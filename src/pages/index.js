@@ -16,8 +16,7 @@ const IndexPage = () => (
           <span className='fa fa-eye' />
           <h2>Friendly reliable service</h2>
           <p>
-            We pride ourselves on our honest and reliable service and always deliver with a smile.
-            We have many trusted clients and they would be more than happy to speak to you about our service if you need any kind of reassurance.
+          We pride ourselves on our honest and reliable service. References from our previous clients are available.
           </p>
         </div>
 
@@ -25,8 +24,7 @@ const IndexPage = () => (
           <span className='fa fa-heart' />
           <h2>Quality Assurance</h2>
           <p>
-            Quality is at the core of everything we do. We are experts in our field and have partnered with the best Artisan trades in the area.
-            No matter what the job, we assure our clients the highest levels of service and attention to detail. All of our work is guaranteed.
+            We can assure our clients the highest level of service. All our work is guaranteed.
           </p>
         </div>
       </div>
