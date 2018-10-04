@@ -1,10 +1,9 @@
 import React from 'react'
 // import Link from 'gatsby-link'
-import showerImg from '../assets/img/portfolio/shower.jpg'
-import bathroomImg from '../assets/img/portfolio/bathroom.jpg'
 import justinImg from '../assets/img/justin.jpg'
 import nathalieImg from '../assets/img/nathalie.jpg'
-import flatImg from '../assets/img/portfolio/flat.jpg'
+
+import Projects from '../sections/projects'
 
 const NewPage = () => (
   <div>
@@ -161,73 +160,7 @@ const NewPage = () => (
       </div>
     </section>
 
-    <div className='container' id='portfolio' name='portfolio'>
-      <br />
-      <div className='row'>
-        <br />
-        <h1 className='centered'>SOME OF OUR PROJECTS</h1>
-        <hr />
-        <br />
-        <br />
-      </div>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-4 '>
-            <div className='grid mask'>
-              <figure>
-                <img className='img-responsive' src={showerImg} alt='' />
-                <figcaption>
-                  <h5>Shower install</h5>
-                  <a data-toggle='modal' href='#myModal' className='btn btn-primary btn-lg'>Take a Look</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-
-          <div className='modal fade' id='myModal' tabIndex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
-            <div className='modal-dialog'>
-              <div className='modal-content'>
-                <div className='modal-header'>
-                  <button type='button' className='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
-                  <h4 className='modal-title'>Bathroom refit</h4>
-                </div>
-                <div className='modal-body'>
-                  <p><img className='img-responsive' src={bathroomImg} alt='' /></p>
-                  <p>We undertook this full bathroom design and installation project for one of our long term clients......</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='col-md-4'>
-            <div className='grid mask'>
-              <figure>
-                <img className='img-responsive' src={flatImg} alt='' />
-                <figcaption>
-                  <h5>Apartment renovation</h5>
-                  <a data-toggle='modal' href='#myModal' className='btn btn-primary btn-lg'>Take a Look</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-
-          <div className='col-md-4'>
-            <div className='grid mask'>
-              <figure>
-                <img className='img-responsive' src={bathroomImg} alt='' />
-                <figcaption>
-                  <h5>Bathroom refit</h5>
-                  <a data-toggle='modal' href='#myModal' className='btn btn-primary btn-lg'>Take a Look</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-
-        <br />
-        <br />
-      </div>
-    </div>
+    <Projects />
 
     <div className='container' id='blog' name='blog'>
       <br />

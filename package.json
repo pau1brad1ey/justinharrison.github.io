@@ -10,6 +10,7 @@
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "react-bootstrap": "^0.32.0",
+    "react-image-lightbox": "^5.0.0",
     "react-scrollspy": "^3.3.5"
   },
   "keywords": [
