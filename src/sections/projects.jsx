@@ -1,6 +1,5 @@
 import React from 'react'
 import Lightbox from 'react-image-lightbox'
-import 'react-image-lightbox/style.css'
 import showerImg from '../assets/img/portfolio/shower.jpg'
 import bathroomImg from '../assets/img/portfolio/bathroom.jpg'
 import flatImg from '../assets/img/portfolio/flat.jpg'
