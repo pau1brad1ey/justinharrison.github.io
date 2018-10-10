@@ -12,19 +12,17 @@ import './theme.css'
 const Header = () => (
   <Navbar inverse collapseOnSelect fixedTop color='faded' light id='navbar-main'>
     <Navbar.Header>
-      {/* <Navbar.Brand>
-         Justin Harrison - Artisan
+      <Navbar.Brand>
+         Aude Bathrooms
        </Navbar.Brand>
-      */}
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Scrollspy className='nav navbar-nav' items={['home', 'services', 'team', 'portfolio', 'blog', 'contact']} currentClassName={'active'} offset={-2}>
+      <Scrollspy className='nav navbar-nav' items={['home', 'services', 'portfolio', 'team', 'contact']} currentClassName={'active'}>
         <NavItem href='#home'>Home</NavItem>
         <NavItem href='#services'> Services</NavItem>
-        <NavItem href='#team'> Team</NavItem>
-        <NavItem href='#portfolio'> Portfolio</NavItem>
-        <NavItem href='#blog'> Our Story</NavItem>
+        <NavItem href='#portfolio'> Our work</NavItem>
+        <NavItem href='#team'> Meet the Team</NavItem>
         <NavItem href='#contact'> Contact</NavItem>
       </Scrollspy>
     </Navbar.Collapse>
@@ -34,7 +32,7 @@ const Header = () => (
 const Footer = () => (
   <div id='footerwrap'>
     <div className='container'>
-      <h4>Copyright 2018</h4>
+      <h4>Copyright {new Date().getFullYear()}</h4>
     </div>
   </div>
 )
@@ -42,10 +40,10 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title='Justin Harrison'
+      title='Aude Bathrooms'
       meta={[
-        { name: 'description', content: 'Justin Harrison - Artisan' },
-        { name: 'keywords', content: 'Justin, Harrison, Artisan, Bathroom' }
+        { name: 'description', content: 'Aude Bathrooms' },
+        { name: 'keywords', content: 'Aude bathrooms, Justin, Harrison, Artisan, Bathroom, Carcassonne' }
       ]}
       link={[
         {rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic'},
