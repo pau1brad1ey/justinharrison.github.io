@@ -10,7 +10,7 @@ import './index.css'
 import './theme.css'
 
 const Header = () => (
-  <Navbar inverse collapseOnSelect fixedTop color='faded' light id='navbar-main'>
+  <Navbar inverse collapseOnSelect fixedTop color='faded' id='navbar-main'>
     <Navbar.Header>
       <Navbar.Brand>
          Aude Bathrooms
