@@ -274,7 +274,9 @@ a[href^="tel:"] {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../assets/img/bg/header2.jpg) no-repeat center top;
+  background-repeat: no-repeat;
+  background-position: center top;
+	background-image: linear-gradient(rgba(20, 20, 20, 0), rgba(20, 20, 20, 0.75)), url(../assets/img/bg/header2.jpg);
 	margin-top: 0;
 	padding: 0 20px;
 	text-align:center;
