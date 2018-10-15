@@ -148,7 +148,7 @@ const NewPage = () => (
           <h3>Contact Us</h3>
           <p>
             <span className='fa fa-home' /> 9 rue des Troenes, 11000 Carcassonne <br />
-            <span className='fa fa-phone' /> 06 65 06 05 74 <br />
+            <span className='fa fa-phone' /> <a href='tel:0665060574'>06 65 06 05 74</a> <br />
             <span className='fa fa-phone' /> 00336 65 06 05 74 (from UK) <br />
             <span className='fa fa-envelope' /> <a href='mailto:audebathrooms@gmail.com'> audebathrooms@gmail.com</a> <br />
             <span className='fa fa-building' /> siret: 480 307 396 00030<br />

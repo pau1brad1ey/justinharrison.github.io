@@ -271,6 +271,11 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a[href^="tel:"] {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 
 /* ==========================================================================
