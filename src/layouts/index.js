@@ -6,7 +6,6 @@ import { Navbar, NavItem } from 'react-bootstrap'
 import Scrollspy from 'react-scrollspy'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
-import './index.css'
 import './theme.css'
 
 const Header = () => (
