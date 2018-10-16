@@ -631,6 +631,14 @@ header {
   min-height: 460px;
 }
 
+.project {
+  margin-bottom: 40px;
+}
+
+.project p {
+  min-height: 60px;
+}
+
 
 /* ==========================================================================
    MEDIA QUERIES

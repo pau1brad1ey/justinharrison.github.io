@@ -187,12 +187,12 @@ class Projects extends React.Component {
         <div className='row'>
           { projectData.map((project, index) => {
               return (
-                <div className='col-md-4 centered' key={index}>
+                <div className='col-md-4 centered project' key={index}>
                   <br /><br />
                   <Image src={project.titleImg} alt='' circle height='200px' width='200px' />
                   <h2>{project.title}</h2>
-                  <p>{project.intro}</p><br /><br />
-                  <Button bsStyle="primary" onClick = {() => this.setState({project: project, isOpen: true})}>See photos</Button>
+                  <p>{project.intro}</p>
+                  <Button bsStyle="primary" onClick = {() => this.setState({project: project, isOpen: true})}>See more</Button>
                 </div>
                 )
             })
