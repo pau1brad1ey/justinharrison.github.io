@@ -9,17 +9,19 @@ import 'font-awesome/css/font-awesome.min.css'
 import './theme.css'
 
 const Header = () => (
-  <Navbar inverse collapseOnSelect fixedTop color='faded' light id='navbar-main'>
+  <Navbar inverse collapseOnSelect fixedTop color='faded' id='navbar-main'>
     <Navbar.Header>
-      {/* <Navbar.Brand>
-         Justin Harrison - Artisan
+      <Navbar.Brand>
+         Justin Harrison
        </Navbar.Brand>
-      */}
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
-      <Scrollspy className='nav navbar-nav' items={['home', 'services', 'team', 'portfolio', 'blog', 'contact']} currentClassName={'active'} offset={-2}>
+      <Scrollspy className='nav navbar-nav' items={['home', 'services', 'portfolio', 'team', 'contact']} currentClassName={'active'}>
         <NavItem href='/#home'>Home</NavItem>
+        <NavItem href='/#services'> Services</NavItem>
+        <NavItem href='/#portfolio'> Our work</NavItem>
+        <NavItem href='/#team'> Meet the Team</NavItem>
         <NavItem href='/#contact'> Contact</NavItem>
       </Scrollspy>
     </Navbar.Collapse>
@@ -29,7 +31,7 @@ const Header = () => (
 const Footer = () => (
   <div id='footerwrap'>
     <div className='container'>
-      <h4>Copyright 2018</h4>
+      <h4>Copyright {new Date().getFullYear()}</h4>
     </div>
   </div>
 )
@@ -39,8 +41,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title='Justin Harrison'
       meta={[
-        { name: 'description', content: 'Justin Harrison - Artisan' },
-        { name: 'keywords', content: 'Justin, Harrison, Artisan, Bathroom' }
+        { name: 'description', content: 'Justin Harrison - Artisan. ' },
+        { name: 'keywords', content: 'Aude bathrooms, Justin, Harrison, Artisan, Bathroom, Carcassonne' }
       ]}
       link={[
         {rel: 'stylesheet', href: 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic'},
