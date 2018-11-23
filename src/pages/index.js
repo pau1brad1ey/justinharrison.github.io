@@ -10,7 +10,7 @@ const NewPage = () => (
     <a name='home' className='' />
     <div id='headerwrap'>
       <header className='clearfix'>
-        <h1>Justin Harrison<br />Heating and plumbing services</h1>
+        <h1>Justin Harrison<br /><br />Aude Bathrooms<br />Heating and plumbing services</h1>
         <p>Specialist in bathroom renovation</p>
       </header>
     </div>
